@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "target": "es2020",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@assets/*": ["assets/*"],
+      "@icons/*": ["assets/icons/*"],
+      "@ui": ["components/ui"],
+      "@views": ["views"],
+      "@utils": ["utils"],
+      "@types": ["types"],
+      "@stores": ["stores"],
+      "@components/*": ["components/*"],
+      "@/*": ["*"]
+    }
+  }
+}
